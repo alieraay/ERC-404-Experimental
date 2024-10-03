@@ -6,7 +6,7 @@ require('dotenv').config();
 privateKey1 = process.env.PRIVATE_KEY1;
 
 module.exports = {
-  defaultNetwork: "hardhat",
+  defaultNetwork: "scroll",
   networks: {
     hardhat: {
     },
